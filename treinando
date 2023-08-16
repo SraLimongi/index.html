@@ -1,0 +1,56 @@
+<html>
+    <script>
+        
+        function arredondar (valor) {
+            return Math.round(valor*100)/100
+            
+        }
+        
+        function calcularSaldo (mes, saldoInicial, salario, contaDeLuz,contaDeAgua, internet, transporte, lazer, alimentacao)
+                console.log(mes)
+                saldo = saldoInicial + salario + contaDeLuz + contaDeAgua + internet + transporte + lazer + alimentacao)
+                return saldo 
+        }
+        
+        // janeiro
+        
+        saldoInicial = 0
+        salario1 = 3000
+        contaDeLuz1 = 200
+        contaDeAgua1 = 200
+        internet1 = 100
+        transporte1 = 100
+        lazer1 = 200
+        alimentacao1 = 800
+        
+        saldo1 = calcularSaldo("janeiro", saldoInicial, salario1, contaDeLuz1, contaDeAgua1, internet1, transporte1, lazer1, alimentacao1)
+        console.log(saldo1) 
+        
+        // fevereiro
+        
+        salario2 = 3000
+        contaDeLuz2 = 220
+        contaDeAgua2 = 210
+        internet2 = 100
+        transporte2 = 150
+        lazer2 = 400
+        alimentacao = 1000
+        
+        saldo2 = calcularSaldo("fevereiro", saldoInicial, salario2, contaDeLuz2, contaDeAgua2, internet2, transporte2, lazer2, alimentacao2)
+        console.log(saldo2)
+        
+        // março
+        
+        salario3 = 3500
+        contaDeLuz3 = 200
+        contaDeAgua3 = 190
+        internet3 = 100
+        transporte3 = 120
+        lazer3 = 650
+        alimentacao = 1100
+        
+        saldo3 = calcularSaldo("marco", saldoInicial, salario3, contaDeLuz3, contaDeAgua3, internet3, transporte3, lazer3, alimentacao3)
+        console.log(saldo3)
+        
+    </script>
+</html>
